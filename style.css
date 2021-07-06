@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.cover img {
+  width: 100%;
+  height: px;
+
+}
+.Section2 {
+  display: flex;
+}
+.diet {
+  width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-bottom: 100px;
+}
+.diet img {
+  width: 80%;
+  height: 400px;
+  float:right
+}
+.orange {
+  color: tomato;
+}
+h1 {
+  font-size: 40px;
+}
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, orange);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+.Section3 {
+  background-image: url(images/bg1.png);
+  background-repeat: no-repeat;
+}
+#recipies {
+  text-align: center;
+}
+#recipiesDes {
+  text-align: center;
+  margin: 70px 300px;
+}
+.container {
+  display: flex;
+  text-align: center;
+}
+
+#fooditem1 {
+  width: 250px;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+
+}
+#fooditem2 {
+  width: 250px;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#fooditem3 {
+  width: 250px;
+  padding: 10px 10px 20px 10px;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.seemore{
+  background-image: linear-gradient(green ,yellow);
+  
+}
+.others{
+  background-color: rgb(229, 252, 186);
+  margin-bottom: 50px;
+  background-image: url(images/Frame\ 57.jpg);
+  background-position: top;
+  
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
